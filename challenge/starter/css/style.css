@@ -51,9 +51,10 @@ p {
     right: 100px;
 }
 
-#navItems p {
+#navItems a {
     padding: 0 20px;
     font-size: 25px;
+    text-decoration: none;
 }
 
 #navigationBar img {
@@ -78,3 +79,15 @@ p {
     position: absolute;
     right: 100px;
 }
+
+
+/*".page-wrapper" selectors*/
+
+
+/*"About me" selectors*/
+
+
+/*"Portfolio" selectors*/
+
+
+/*"Contacts" selectors*/
