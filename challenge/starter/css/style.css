@@ -27,11 +27,12 @@ p {
 
 #navigationBar {
     display: flex;
-    margin: 0px 5%;
-    padding: 80px;
+    margin: 0px;
+    padding: 80px 80px 40px 80px;
     background-color: cadetblue;
     background-size: cover;
     color: rgb(15, 14, 15);
+    width: 100%;
 }
 
 #navigationBar h1 {
@@ -44,12 +45,14 @@ p {
     display: flex;
     justify-content: flex-end;
     width: 50%;
-    margin: 0px 5%;
+    margin: 0;
     align-items: center;
+    position: absolute;
+    right: 100px;
 }
 
 #navItems p {
-    padding: 0 30px;
+    padding: 0 20px;
     font-size: 25px;
 }
 
@@ -63,13 +66,15 @@ p {
 .hero-banner {
     display: flex;
     justify-content: end;
-    margin: 0px 5%;
+    margin: 0;
     padding: 80px;
     background-image: url("../images/02-hero-bg.jpg");
     background-size: cover;
     color: orangered;
+    width: 100%;
 }
 
-.hero-banner h2 {
-    padding-right: 230px;
+.hero-banner div {
+    position: absolute;
+    right: 100px;
 }
