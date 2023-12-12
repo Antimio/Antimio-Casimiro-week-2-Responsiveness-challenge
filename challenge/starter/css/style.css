@@ -22,13 +22,16 @@ p {
     margin: 0;
 }
 
+
+/*Navigation bar selectors*/
+
 #navigationBar {
     display: flex;
     margin: 0px 5%;
     padding: 80px;
-    background-image: url("../images/02-hero-bg.jpg");
+    background-color: cadetblue;
     background-size: cover;
-    color: rgb(255, 47, 99);
+    color: rgb(15, 14, 15);
 }
 
 #navigationBar h1 {
@@ -52,4 +55,21 @@ p {
 
 #navigationBar img {
     max-width: 100px;
+}
+
+
+/*Hero banner selectors*/
+
+.hero-banner {
+    display: flex;
+    justify-content: end;
+    margin: 0px 5%;
+    padding: 80px;
+    background-image: url("../images/02-hero-bg.jpg");
+    background-size: cover;
+    color: orangered;
+}
+
+.hero-banner h2 {
+    padding-right: 230px;
 }
